@@ -1,0 +1,88 @@
+body {
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
+    font-family: "Supermercado One";
+    
+}
+.title {
+    /* margin: auto; */
+    text-align: center;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+#dogPic {
+    display: block;
+    /* width: 33vw; */
+    max-width: 50%;
+    /* height: auto;
+    margin: auto; */
+    border-radius: 10px;
+    max-height: 90vh;
+}
+
+#dogSquare {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    max-width: 1000px;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    /* background-color: rgba(255, 255, 255, 0.808); */
+    /* margin-top: auto; */
+    top: 50%;
+    padding: 30px;
+    /* opacity: 50%; */
+    margin-top: 20vh;
+    align-items: flex-start;
+}
+
+#fetcher {
+    background-color: rgba(255, 255, 255, 0.808);
+    border: none;
+    cursor: pointer;
+    font-family: "Supermercado One";
+    font-size: 1rem;
+    margin: 0;
+    border-radius: 5px;
+}
+
+#dogInfoContainer {
+    width: 50%;
+    height: auto;
+}
+
+#upperbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    height: auto;   
+}
+
+#breedName {
+    text-align: center;
+    width: auto;
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#dogInfo {
+    margin: 0%;
+    /* overflow-x: auto; */
+    white-space: pre-wrap;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.8rem;
+    line-height: 25px;
+}
+
+#infoContainer {
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
